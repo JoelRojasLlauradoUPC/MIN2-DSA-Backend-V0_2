@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.net.URI;
 
 /**
- * Main class_.
+ * Main class.
  *
  */
 public class Main {
