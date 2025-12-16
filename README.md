@@ -4,6 +4,9 @@ Canvis realitzats:
 - S'ha afegit el model Team
 - S'ha afegit el servei TeamsService:
   - S'ha creat la ruta /teams/ranking
+ 
+Conclusió:
+- S'ha implementat tot el que es solicitava en l'EJ1 del MÍN 2.
 
 # Fishing Game Backend API
 
