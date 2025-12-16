@@ -2,13 +2,17 @@ package edu.upc.dsa.services;
 
 import edu.upc.dsa.SystemManager;
 import edu.upc.dsa.models.User;
+import edu.upc.dsa.services.dto.FishingRod;
 import edu.upc.dsa.services.dto.RequestCapturedFish;
 import io.swagger.annotations.*;
 
 import javax.ws.rs.*;
+import javax.ws.rs.core.GenericEntity;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import java.util.ArrayList;
+import java.util.List;
 
 @Api(value = "/game", tags = {"game"})
 @Path("/game")
@@ -21,6 +25,7 @@ public class GameService {
         public double weight;
         public CaptureRequest() {}
     }
+
 
     @POST
     @Path("/captured")
