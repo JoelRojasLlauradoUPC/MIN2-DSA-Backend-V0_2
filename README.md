@@ -1,3 +1,10 @@
+# MIN 2 - DSA
+
+Canvis realitzats:
+- S'ha afegit el model Team
+- S'ha afegit el servei TeamsService:
+  - S'ha creat la ruta /teams/ranking
+
 # Fishing Game Backend API
 
 This backend exposes a simple game API with authentication, catalog, in-game actions, and a shop.
